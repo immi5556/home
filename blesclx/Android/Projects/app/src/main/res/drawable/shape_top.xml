@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- we define background color -->
+    <solid android:color="#e7b8b8" />
+
+    <!-- we define border color and thick -->
+    <stroke
+        android:width="10dp"
+        android:color="#00c0c0c0" />
+
+
+    <!-- we define corner radius, note that radius can be different for each corner -->
+    <corners android:topLeftRadius="20dp" android:topRightRadius="20dp"></corners>
+
+</shape>

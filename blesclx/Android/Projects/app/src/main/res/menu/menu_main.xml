@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_gall"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/photo_gal"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_cam"
+        android:title="@string/action_camera"
+        android:icon="@drawable/ic_act_cam"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="300"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_prof"
+        android:title="@string/action_profile"
+        android:icon="@drawable/anonym_ico"
+        android:orderInCategory="400"
+        app:showAsAction="always" />
+</menu>

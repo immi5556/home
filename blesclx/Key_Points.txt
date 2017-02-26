@@ -1,0 +1,5 @@
+create table blessclix_images (id INT NOT NULL AUTO_INCREMENT, url VARCHAR(1024) NOT NULL, title VARCHAR(100) NULL, author VARCHAR(100) NULL, deviceid VARCHAR(100) NULL, createdat timestamp  NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY ( id ));
+
+create table blessclix_comments (commentid INT NOT NULL AUTO_INCREMENT, id int not NULL, comment VARCHAR(300) NULL, deviceid VARCHAR(100) NULL, createdat timestamp  NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY ( commentid ));
+
+create table blessclix_downloads (downloadid INT NOT NULL AUTO_INCREMENT, id int not NULL, author VARCHAR(100) NULL, deviceid VARCHAR(100) NULL, createdat timestamp  NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY ( downloadid ));

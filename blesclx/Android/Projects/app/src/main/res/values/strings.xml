@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bless Clikzz</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Settings</string>
+    <string name="action_new">Settings</string>
+    <string name="action_camera">Camera</string>
+    <string name="logo_desc">App logo</string>
+    <string name="action_profile">Profile</string>
+    <item name="cmttext" type="id" />
+</resources>
